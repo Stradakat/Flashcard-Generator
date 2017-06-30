@@ -30,7 +30,7 @@ var ClozeCard = function(text, cloze) {
     }
 
     if (this.cloze !== partialCloze) {
-      console.log("Error - Wrong Cloze Format");
+      console.log("Error - Wrong Format");
     }
     else {
       console.log(partialText);
